@@ -1,0 +1,123 @@
+body {
+    font-size: 14px;
+  /*   background-color: #333333;
+    color: #FFFFFF; */
+  }
+
+  /* Style the tab */
+  .tabs {
+  /*     overflow: hidden; */
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 49px;
+  }
+
+  .avatar {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .tabs .main-button {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    background-color: #f1f1f1;
+  }
+
+  .tabs .main-button span {
+    display: block;
+    font-size: 12px;
+  }
+
+  .tabs .main-button:hover {
+    cursor: default;
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+  .tabs button {
+      border-left: 1px solid black !important;
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tabs button:hover {
+      background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tabs button.active {
+      background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+      margin-top: 50px;
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+  }
+
+  .timestamp {
+    margin-right: 10px;
+  }
+
+  .message {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+  }
+
+  .message img {
+    vertical-align: middle;
+  }
+
+  .message span {
+    vertical-align: middle;
+  }
+
+  .attachments {
+    display: block;
+  }
+
+  .attachments img {
+    width: 350px;
+  }
+
+  .attachment-note {
+    display: block;
+    font-size: 12px;
+  }
+
+  li label {
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+  li {
+    margin: 10px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  ul {
+    list-style: none;
+  }
